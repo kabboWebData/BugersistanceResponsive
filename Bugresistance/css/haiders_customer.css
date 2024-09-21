@@ -1,0 +1,34 @@
+.plyr--full-ui input[type="range"] {
+    width: 100%;
+}
+.jq-tab-menu {
+    display: flex;                /* Makes the tabs inline */
+    justify-content: space-around;     /* Adds a border around the entire tab container */
+    border-radius: 5px;            /* Optional: rounds the corners of the container */
+    padding: 5px;    
+    padding-right: 15%;  
+    margin-top: 2%;            /* Optional: space between border and buttons */
+  }
+  
+  .jq-tab-title {
+    padding: 10px 20px;            /* Adds padding inside the buttons */
+    border: 1px solid #007bff;     /* Adds border to each button */
+    border-radius: 4px;            /* Optional: rounds the corners of each button */
+    cursor: pointer;               /* Pointer cursor to make them interactive */
+    background-color: white;       /* Default background color */
+    margin-right: 5px;             /* Adds space between buttons */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .jq-tab-title:last-child {
+    margin-right: 0;               /* Removes margin from the last button */
+  }
+
+  .jq-tab-title.active {
+    background-color: #007bff;     /* Changes background color of the active button */
+    color: white;                  /* Changes text color of the active button */
+  }
+
+  .jq-tab-title:hover {
+    background-color: #f0f0f0;     /* Changes background on hover */
+  }
